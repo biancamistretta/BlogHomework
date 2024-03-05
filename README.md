@@ -71,7 +71,7 @@ bash
 Copy code
 npx sequelize-cli db:migrate
 
-##Start the server:
+## Start the server:
 
 bash
 Copy code
