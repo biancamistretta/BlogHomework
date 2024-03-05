@@ -1,0 +1,11 @@
+<h2>Welcome, {{user.username}}!</h2>
+
+<h3>Your Posts</h3>
+{{#each user.posts}}
+    <div class="post">
+        <h4><a href="/posts/{{id}}">{{title}}</a></h4>
+        <p>Posted on {{createdAt}}</p>
+    </div>
+{{/each}}
+
+<a href="/posts/new">Add New Post</a>
